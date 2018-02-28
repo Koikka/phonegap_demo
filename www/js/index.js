@@ -58,7 +58,7 @@ var app = {
     },
     /* Initialize called after all is loaded (call is in the last line of this file) */
     initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        // Removed device ready listener -> app wont work anymore
     },
     /* Device is ready - can start running your own code */
     onDeviceReady: function() {
