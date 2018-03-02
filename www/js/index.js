@@ -58,6 +58,7 @@ var app = {
     },
     /* Initialize called after all is loaded (call is in the last line of this file) */
     initialize: function() {
+        // Do initialize
         // Remember not to remove device ready listener - test push
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
