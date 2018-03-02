@@ -54,7 +54,7 @@ var app = {
     },
     /* Acceleration error callback */
     onError: function() {
-        alert('onError!');
+        alert('This is error situation!');
     },
     /* Initialize called after all is loaded (call is in the last line of this file) */
     initialize: function() {
