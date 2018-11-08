@@ -19,6 +19,7 @@ To avoid conflicts team should discuss which functionality one does (or use diff
 ### IN INDEX.HTML
 - CHANGE
 	- meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
+
 -TO
 	- meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;
 - This allows inline js to be executed
