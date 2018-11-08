@@ -1,4 +1,4 @@
-# PhoneGap Demo - 02.11.2018
+# PhoneGap Demo - 02.11.2017
 
 ### At the same time one can edit master branch
 To avoid conflicts team should discuss which functionality one does (or use diffmerge to solve conflicts)
